@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login & Sign up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="login-toggle" onclick="toggleForm('login')">Login</button>
+                <button id="signup-toggle" onclick="toggleForm('signup')">Sign Up</button>
+            </div>
+            <div class="form-slots">
+                <div id="login-form" class="form-group active">
+                    <h2>Login</h2>
+                    <p>Welcome!! Silahkan Login ke akun anda :)</p>
+                    <input type="Username" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                    <a href="#" class="forgot-password">Lupa Password?</a>
+                    <div class="social-login">
+                        <!-- Tombol login dengan Google -->
+                        <a href="#" class="btn-google">
+                            <img src="google-icon.png" alt="Google Icon"> Login with Google
+                        </a>
+                        <!-- Tombol login dengan Facebook -->
+                        <a href="#" class="btn-facebook">
+                            <img src="facebook-icon.png" alt="Facebook Icon"> Login with Facebook
+                        </a>
+                        <!-- Tombol login dengan Github -->
+                        <a href="#" class="btn-github">
+                            <img src="github-icon.png" alt="Github Icon"> Login with Github
+                        </a>
+                    </div>
+                </div>
+                <div id="signup-form" class="form-group">
+                    <h2>Sign Up</h2>
+                    <p>Sign up atau Masukan Akun</p>
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign Up</button>
+                    <div class="social-login">
+                        <!-- Tombol sign up dengan Google -->
+                        <a href="#" class="btn-google">
+                            <img src="google-icon.png" alt="Google Icon"> Sign Up with Google
+                        </a>
+                        <!-- Tombol sign up dengan Facebook -->
+                        <a href="#" class="btn-facebook">
+                            <img src="facebook-icon.png" alt="Facebook Icon"> Sign Up with Facebook
+                        </a>
+                        <!-- Tombol sign up dengan Github -->
+                        <a href="#" class="btn-github">
+                            <img src="github-icon.png" alt="Github Icon"> Sign Up with Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2024 Adiatma Official. All Rights Reserved.</p>
+                <p>Silahkan Login jika sudah mendaftarkan jika belum segera daftarkan</p>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
