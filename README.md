@@ -1,2 +1,6 @@
 # Tampilan-Login-Web
-Tampilan website Sign Dan Sign up Simpel  Dan Rapih
+Halaman Login: Halaman login dirancang dengan tampilan minimalis yang memudahkan pengguna untuk masuk ke akun mereka. Terdapat kolom untuk memasukkan username atau email dan password. Tombol "Masuk" jelas terlihat untuk memulai proses login. Di bagian bawah, terdapat opsi untuk mengatur ulang kata sandi jika pengguna lupa.
+Halaman Home: Halaman utama menampilkan tata letak yang bersih dan intuitif. Terdapat navigasi utama di bagian atas atau samping untuk memudahkan pengguna menjelajahi berbagai fitur dan konten. Widget atau papan informasi bisa ditampilkan di bagian tengah atau bawah untuk memberikan informasi penting atau update terbaru kepada pengguna.
+Halaman Sign Up: Halaman pendaftaran dirancang untuk memudahkan pengguna baru membuat akun dengan langkah-langkah yang jelas. Formulir pendaftaran mencakup kolom untuk memasukkan nama lengkap, alamat email, password, serta informasi tambahan seperti tanggal lahir atau jenis kelamin. Tombol "Daftar" terlihat jelas untuk memulai proses pendaftaran. Ada pula opsi untuk pengguna yang sudah memiliki akun untuk langsung masuk ke dalam sistem.
+
+# Setiap halaman didesain dengan fokus pada pengalaman pengguna yang baik, responsif terhadap berbagai jenis perangkat, dan mematuhi prinsip-prinsip desain UX untuk memastikan navigasi yang lancar dan penggunaan yang intuitif.
