@@ -1,0 +1,166 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.form-container p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-toggle button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.form-toggle button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.form-toggle button.active {
+    background: #0056b3;
+}
+
+.form-group {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-group button:hover {
+    background: #0056b3;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup-form {
+    display: none;
+}
+
+/* Social Login Buttons */
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px; /* Menyesuaikan padding untuk tampilan yang lebih besar */
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Untuk memusatkan ikon */
+    justify-content: center; /* Untuk memusatkan ikon */
+}
+
+.btn-google {
+    background-color: #DB4437; /* Google red */
+}
+
+.btn-facebook {
+    background-color: #3B5998; /* Facebook blue */
+}
+
+.btn-github {
+    background-color: #24292E; /* Github dark gray */
+}
+
+.btn-google:hover, .btn-facebook:hover, .btn-github:hover {
+    opacity: 0.8;
+}
+
+.social-login img {
+    width: 20px; /* Ukuran ikon */
+    height: 20px; /* Ukuran ikon */
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+/* Footer */
+footer {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Adjusted to stick to bottom */
+    border-radius: 0 0 5px 5px;
+    transition: bottom 0.3s ease-out; /* Smooth sliding animation */
+}
+
+footer p {
+    margin: 5px 0;
+}
